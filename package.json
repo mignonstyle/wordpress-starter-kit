@@ -5,7 +5,8 @@
   "author": "mignonstyle",
   "license": "GPLv2",
   "scripts": {
-    "build": "./node_modules/gulp/bin/gulp.js"
+    "build": "./node_modules/gulp/bin/gulp.js",
+    "miya": "echo 'おいこらー！'"
   },
   "browserify-shim": {
     "jquery": "global:jQuery"
@@ -16,7 +17,6 @@
     "browserify-shim": "^3.8.11",
     "gulp": "^3.9.0",
 	"gulp-cssmin": "^0.1.7",
-    //"gulp-minify-css": "^1.2.1",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.1.0",
