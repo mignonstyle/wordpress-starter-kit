@@ -1,0 +1,27 @@
+{
+  "name": "wordpress-starter-kit-test",
+  "description": "gulpの練習用スターターキットです。作成中です。",
+  "version": "1.0.0",
+  "author": "mignonstyle",
+  "license": "GPLv2",
+  "scripts": {
+    "build": "./node_modules/gulp/bin/gulp.js"
+  },
+  "browserify-shim": {
+    "jquery": "global:jQuery"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.10.0",
+    "browserify": "^12.0.1",
+    "browserify-shim": "^3.8.11",
+    "gulp": "^3.9.0",
+	"gulp-cssmin": "^0.1.7",
+    //"gulp-minify-css": "^1.2.1",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.0",
+    "gulp-uglifyjs": "^0.6.2",
+    "gulp-watch": "^4.3.5",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
