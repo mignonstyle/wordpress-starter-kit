@@ -5,7 +5,7 @@
   "author": "mignonstyle",
   "license": "GPLv2",
   "scripts": {
-    "build": "./node_modules/gulp/bin/gulp.js",
+    "build": "gulp",
     "miya": "echo 'おいこらー！'"
   },
   "browserify-shim": {
